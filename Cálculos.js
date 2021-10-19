@@ -8,8 +8,8 @@ function calcular (){
     var d = Number(a3.value)
     const K = 9000000000
 
-    var distancia = d*d
-    var x = K*q1*q2*100
+    var distancia = (d*d)/10000
+    var x = K*q1*q2
     var y = x/distancia
     var forca = Math.abs(y)
 
